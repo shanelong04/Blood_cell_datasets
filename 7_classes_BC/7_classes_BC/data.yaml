@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Basophil', 'Eosinophil', 'Lymphocyte', 'Monocyte', 'Neutrophil', 'Platelets', 'RBC']
+
+roboflow:
+  workspace: blood-cell-count-btldx
+  project: final-data-kkfzh
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/blood-cell-count-btldx/final-data-kkfzh/dataset/5
